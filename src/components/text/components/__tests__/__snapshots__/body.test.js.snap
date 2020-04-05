@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body should render 1`] = `
+<div
+  className="
+      body-large black
+      weight-normal align-left
+      foobar
+    "
+>
+  <div>
+    Body Text
+  </div>
+</div>
+`;
+
+exports[`Body should render 2`] = `
+<div
+  className="
+      body-regular black
+      weight-normal align-left
+      
+    "
+/>
+`;

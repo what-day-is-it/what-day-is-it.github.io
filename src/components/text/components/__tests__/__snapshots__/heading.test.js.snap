@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should render 1`] = `
+<h5
+  className="
+        heading-5 black
+        weight-normal align-undefined
+        
+        font-undefined undefined
+        foobar
+      "
+>
+  <div>
+    Heading
+  </div>
+</h5>
+`;
+
+exports[`Heading should render 2`] = `
+<h2
+  className="
+        heading-2 black
+        weight-normal align-undefined
+        
+        font-undefined undefined
+        
+      "
+/>
+`;

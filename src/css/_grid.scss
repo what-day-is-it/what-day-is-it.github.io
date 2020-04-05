@@ -1,0 +1,23 @@
+.grid-area {
+  display: grid;
+  width: 100vw;
+  box-sizing: border-box;
+  grid-template-columns: auto 1fr auto;
+  @include mq($from: lg_desktop) {
+    grid-template-columns: minmax(1px, auto) $grid-max-width minmax(1px, auto);
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.grid-content {
+  display: grid;
+  grid-column: 2 / span 1;
+  grid-template-columns: repeat(14, 1fr);
+  @include mq($from: lg_desktop) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
